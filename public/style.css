@@ -16,6 +16,13 @@ body{
     
 }
 
+#scoreCon{
+    position: absolute;
+    right : 0;
+    top : 0;
+    font-size: medium;
+}
+
 .dino {
     background-image: url(../img/dino.png);
     background-repeat: no-repeat;
@@ -40,6 +47,7 @@ body{
 .gameOver {
     visibility: hidden;
 }
+
 .obstacleAni{
 animation : obstacleAni 5s linear infinite;
 
